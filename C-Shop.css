@@ -1,0 +1,120 @@
+#wrapper{font-family:tahoma;}
+.container{width:90%;
+margin:0 auto;}
+#sub-header{width:100%;
+height:30px;
+background:bisque;
+color:black;
+margin-top:-15px;
+}
+#sub-header p{
+float:left;
+margin-top:7px;
+}
+#sub-header a{
+line-height:30px;
+margin-left:20px;
+float:right;
+color:black;
+text-decoration:none;
+}
+/*Logo styling*/
+
+#main-header{width:100%;height:100px;
+background:darkslategrey;}
+
+#logo{
+width:250px;
+margin-top:20px;
+float:left;
+}
+#my{font-size:45px;
+font-weight:bold;
+margin-left:-100px;
+color:yellow;}
+#shop{color:yellow;}
+/*Searching Area*/
+#search{width:650px;
+float:left;
+padding:20px;
+}
+.search{
+width:650px;
+height:30px;
+border:none;
+border-radius:5px;
+margin-top:10px;
+padding-left:10px;
+margin-left:-150px;
+}
+.submit{
+width:60px;
+height:30px;
+border:none;
+border-radius:5px;
+float:right;
+margin-top:11px;
+margin-right:80px;
+}
+/*
+User menu
+*/
+#user-menu{
+width:300px;
+float:right;
+margin-top:-60px;
+}
+/* List style */
+#user-menu li{
+float:left;
+width:140px;
+text-align:center;
+list-style:none;
+font-size:25px;
+border-left:1px solid black;
+}
+#user-menu li:hover{
+font-size:30px;
+transition: all .5s ease;
+}
+#user-menu li a{
+color:white;
+text-decoration:none;
+}
+/* Navigation Bar*/
+#navigation{
+width:100%;
+height:35px;
+background:darkslategrey;
+float:left;
+box-shadow:5px 1px 120px 5px #7fff00;
+}
+nav {
+width:100%;
+margin:0 auto;}
+nav a{
+text-decoration:none;
+color:white;
+margin:20px;
+}
+nav a:hover{
+color:yellow;
+transition:all .5s ease;
+}
+/*----------Slider--------*/
+.mySlides {display:none;}
+
+/*--------Category--------*/
+
+#heading-block{
+width:100%;
+height:auto;
+float:left;
+color:darkslategrey;
+
+}
+#heading-block h2{
+line-height:35px;
+border-left:20px solid darkslategrey;
+padding-left:20px;
+}
